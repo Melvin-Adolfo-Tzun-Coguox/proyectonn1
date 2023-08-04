@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectonn1.Usersform">
+   <children>
+      <Label layoutX="159.0" layoutY="47.0" text="INFORMACION DE USUARIOS DEL SISTEMA" />
+      <Label layoutX="169.0" layoutY="107.0" text="ID" />
+      <Label layoutX="131.0" layoutY="139.0" text="NOMBRES" />
+      <Label layoutX="130.0" layoutY="183.0" text="APELLIDOS" />
+      <Label layoutX="67.0" layoutY="223.0" text="FECHA DE NACIMIENTO" />
+      <TextField fx:id="txtapellidos" layoutX="242.0" layoutY="179.0" />
+      <TextField fx:id="txtnombres" layoutX="242.0" layoutY="135.0" />
+      <TextField fx:id="txtid" layoutX="242.0" layoutY="103.0" />
+      <DatePicker fx:id="datepicker" layoutX="242.0" layoutY="219.0" />
+      <Label layoutX="153.0" layoutY="261.0" text="ROL" />
+      <ComboBox fx:id="comborol" layoutX="241.0" layoutY="257.0" prefWidth="150.0" />
+      <Label layoutX="89.0" layoutY="308.0" text="CLAVE DE ACCESO" />
+      <PasswordField fx:id="txtclave" layoutX="242.0" layoutY="296.0" />
+   </children>
+</Pane>
